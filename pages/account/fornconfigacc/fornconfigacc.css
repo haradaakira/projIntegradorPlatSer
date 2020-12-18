@@ -1,0 +1,96 @@
+.container {
+    padding: 2rem 0rem;
+}
+  
+h4 {
+    margin: 2rem 0rem 1rem;
+}
+  
+.table-image td, .table-image th {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.navbar{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 21%, rgba(255,106,0,1) 67%, rgba(255,94,0,1) 100%);
+    box-shadow: 2px 2px 5px;
+    color: orangered;
+}
+
+.w-25 img{
+    width: 50%;
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+* {box-sizing: border-box}
+
+.container {
+  padding: 16px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+#rg, #cpf, #tel{
+  width: 30%;
+  padding: 15px;
+  margin: 5px 15px 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+#num, #comp, #cidade, #bairro{
+  width: 15%;
+  padding: 15px;
+  margin: 5px 15px 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: #ff5500;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
